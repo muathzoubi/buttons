@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background-image: url('https://applemagazine.com/wp-content/uploads/2022/06/AppleMagazine2-2048x2048.webp');
+  background-size: cover;
+  background-repeat: round;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.testbutton {
+  font-family: 'Radio Canada', sans-serif;
+
+  color: #3866a3 !important;
+  font-size: 13px;
+  text-shadow: 0px 0px 0px #7cacde;
+  box-shadow: 1px 1px 3px #3866a3;
+  padding: 11px 45px;
+  border-radius: 4px;
+  border: 0px solid #3866a3;
+  transition: all 0.8s;
+}
+.testbutton:hover {
+  color: #ffffff !important;
+  background: #393fee;
+  background: linear-gradient(to top, #393fee, #4734ee);
+}
+
+.testbutton2 {
+  font-family: 'Radio Canada', sans-serif;
+  margin: 12px;
+  color: #42f566 !important;
+  font-size: 13px;
+  text-shadow: 0px 0px 0px #7cacde;
+  box-shadow: 1px 1px 3px #42f566;
+  padding: 11px 45px;
+  border-radius: 4px;
+  border: 0px solid #42f566;
+  transition: all 0.8s;
+}
+.testbutton2:hover {
+  color: #ffffff !important;
+  background: #008c05;
+  background: linear-gradient(to top, #008c05, #008c55);
+}
+
+.testbutton3 {
+  font-family: 'Radio Canada', sans-serif;
+  color: #e09107 !important;
+  font-size: 13px;
+  text-shadow: 0px 0px 0px #7cacde;
+  box-shadow: 1px 1px 3px #e09107;
+  padding: 11px 45px;
+  border-radius: 4px;
+  border: 0px solid #e09107;
+  transition: all 0.8s;
+}
+.testbutton3:hover {
+  color: #fff !important;
+  background: #e09107;
+  background: linear-gradient(to top, #e09107, #e09190);
+}
+
+.testbutton4 {
+  font-family: 'Radio Canada', sans-serif;
+  margin: 12px;
+  color: #e00732 !important;
+  font-size: 13px;
+  text-shadow: 0px 0px 0px #7cacde;
+  box-shadow: 1px 1px 3px #e00732;
+  padding: 11px 45px;
+  border-radius: 4px;
+  border: 0px solid #e00732;
+  transition: all 0.8s;
+}
+.testbutton4:hover {
+  color: #fff !important;
+  background: #e09107;
+  background: linear-gradient(to top, #e00732, #e00790);
+}
