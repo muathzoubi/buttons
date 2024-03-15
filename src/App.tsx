@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg';
 import './App.css';
 import SideBar from './Sidebar';
 import MainLayout from './mainLayout';
+import MainLayout2 from './mainLayout2';
 const mainStyle: React.CSSProperties = {
   display: 'flex',
   position: 'fixed',
@@ -14,8 +15,18 @@ const mainStyle: React.CSSProperties = {
   overflow: 'hidden',
 };
 function App() {
-  const [count, setCount] = useState(0);
-
+  const [page, setPage] = useState(<MainLayout />
+  );
+  const handlePage = (id: number) => {
+    switch (id) {
+      case 1:
+        setPage(<MainLayout />)
+        break;
+      case 2:
+        setPage(<MainLayout2 />)
+        break;
+    }
+  }
   return (
     <div>
       <div
@@ -37,10 +48,12 @@ function App() {
             height={45}
           />
         </div>
+        <button className='nav-btn' onClick={() => handlePage(1)}>Page 1</button>
+        <button className='nav-btn' onClick={() => handlePage(2)}>Page 2</button>
       </div>
 
       <div style={mainStyle}>
-        <MainLayout />
+        {page}
       </div>
     </div>
   );

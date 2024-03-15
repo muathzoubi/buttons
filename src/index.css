@@ -102,3 +102,22 @@ h1 {
   background: #e09107;
   background: linear-gradient(to top, #e00732, #e00790);
 }
+.nav-btn{
+  font-family: 'Radio Canada', sans-serif;
+  font-size: 13px;
+  box-shadow: 1px 1px 3px #4734ee32;
+  padding: 11px 45px;
+  border-radius: 4px;
+  border: 0px solid #000000;
+  transition: all 0.8s;
+  margin: 2px;
+cursor: pointer;
+}
+.nav-btn:hover{
+  background-color: white;
+  color: #4734ee;
+  background: linear-gradient(to top, #4734ee32, #4734ee00);
+
+opacity: 1;
+
+}
